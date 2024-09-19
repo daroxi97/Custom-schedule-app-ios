@@ -1,15 +1,28 @@
-Custom Schedule app
-Welcome to Activity Calendar! This iOS app, developed in Xcode, helps you manage and organize your daily tasks, classify your activities, set reminders, and more—all in one place.
+ # 🌟 Custom shedule app
+Welcome to Activity Calendar—your personal assistant for managing, organizing, and staying on top of your daily tasks! Developed in Xcode for iOS, this app allows you to classify your activities, set reminders, and enjoy other convenient features, all tailored to make your life easier.
 
-Features
-Add Activities: Easily add activities and assign them to different categories or tags such as work, personal, sports, studies, etc.
+## 🚀 Features
 
-Manual Tagging: Classify your activities by manually adding tags. You can also create custom tags to define how they interact with different features.
+➕ Add Activities
 
-Customizable Features by Tags: When creating custom tags, you can specify which features (alarms, weather alerts, etc.) will be triggered for activities with that tag.
+Effortlessly create new activities and assign them to different categories or tags. Whether it’s work, personal, sports, or studies, you can keep everything neatly organized.
 
-Alarm Notifications: Set alarms to notify you when it’s time to perform an activity.
+🏷️ Manual Tagging
 
-Weather Forecast Notifications: Get notified if rain is expected on the day of your activity, so you can plan accordingly.
+Take control of your activities by manually adding tags. Want more flexibility? You can create custom tags to suit your specific needs and preferences.
 
-Completed Activities Organization: All completed activities are automatically organized by their tags, giving you a clear overview of your progress in different areas.
+🔧 Customizable Features by Tags
+
+When creating custom tags, you decide how they interact with the app's features. For example, a tag could automatically trigger specific functions like alarms or weather alerts.
+
+⏰ Alarm Notifications
+
+Stay on schedule by setting alarms for your activities. The app will notify you when it’s time to get things done!
+
+🌧️ Weather Forecast Notifications
+
+Planning an outdoor event? Get notified if rain is forecasted for the day of your activity, so you can make informed decisions and adjust your plans accordingly.
+
+✅ Organized Completed Activities
+
+All your completed tasks are automatically sorted by their respective tags, giving you a clean overview of your accomplishments in various categories.
