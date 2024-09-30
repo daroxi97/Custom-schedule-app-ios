@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct WeatherModel {
+    
+    var date : TimeModel
+    var weather : String
+    
+}

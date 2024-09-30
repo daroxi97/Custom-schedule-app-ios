@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Time{
+class TimeModel{
     var hour : Int
     var day: Int
     var month : Int

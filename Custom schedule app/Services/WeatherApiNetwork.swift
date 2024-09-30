@@ -30,7 +30,7 @@ class WeatherApiNetwork{
     }
     
     func getWeather() async throws -> Wrapper{
-        let url = URL(string: "http://api.openweathermap.org/data/2.5/weather?q=barcelona&appid=\(apiId)&units=metric")!
+        let url = URL(string: "https://api.openweathermap.org/data/2.5/forecast?q=barcelona&appid=\(apiId)&units=metric")!
         
         let (data, _) = try await URLSession.shared.data(from: url)
         

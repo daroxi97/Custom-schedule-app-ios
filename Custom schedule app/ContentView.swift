@@ -11,7 +11,9 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
-
+    
+    let notify = PushAlertUseCase ()
+    
     var body: some View {
         NavigationSplitView {
             List {
@@ -43,14 +45,26 @@ struct ContentView: View {
             Text("Select an item")
         }
     }
-
+    
     private func addItem() {
         withAnimation {
             let newItem = Item(timestamp: Date())
             modelContext.insert(newItem)
+            
+            Task{
+                do {
+                    try await  GetWeatherFromApiUseCase().getWeatherFromApi()
+                    notify.askPermission()
+                    notify.sendNotification(date: Date(), type: "time", timeInterval: 5, title: "sexe", body: "dur", alarm : true)
+                }
+                catch {
+                    print ("sexe")
+                }
+            }
         }
+        
     }
-
+    
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
