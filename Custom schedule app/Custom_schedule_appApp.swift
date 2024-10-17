@@ -28,7 +28,7 @@ struct Custom_schedule_appApp: App {
     
     var body: some Scene {
         WindowGroup {
-            BasicCalendarView()
+            AddActivityView()
         }
         .modelContainer(sharedModelContainer)
     }

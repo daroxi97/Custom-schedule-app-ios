@@ -53,7 +53,7 @@ struct ContentView: View {
             
             Task{
                 do {
-                    try await  GetWeatherFromApiUseCase().getWeatherFromApi()
+                    try await  GetWeatherFromApiOpenWeatherUseCase().getWeatherFromApi()
                     notify.askPermission()
                     notify.sendNotification(date: Date(), type: "time", timeInterval: 5, title: "sexe", body: "dur", alarm : true)
                 }

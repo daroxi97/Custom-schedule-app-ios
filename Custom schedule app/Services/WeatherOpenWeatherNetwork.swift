@@ -8,7 +8,7 @@
 import Foundation
 
 
-class WeatherApiNetwork{
+class WeatherOpenWeatherNetwork{
     var apiId = "549c988c76510172f7adb16ff1fb865c"
     
     struct Wrapper:Codable{
